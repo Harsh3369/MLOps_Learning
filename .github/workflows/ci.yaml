@@ -20,4 +20,6 @@ jobs:
       - name: run python script
         run: |
           pip install -r requirements.txt
-          python ci.py
+          python CICD_For_ML/ci.py
+
+          
