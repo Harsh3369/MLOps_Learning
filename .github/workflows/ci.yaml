@@ -19,5 +19,5 @@ jobs:
         run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: run python script
         run: |
-          pip install requirements.txt
+          pip install -r requirements.txt
           python ci.py
